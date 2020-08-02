@@ -1,0 +1,28 @@
+
+## Networking Constants ##
+
+GUI_IP = '192.168.4.1'
+SERVO_IP = '192.168.4.2'
+JETSON_IP = '192.168.4.3'
+
+SEEKER_MODE = False
+GYRO_MODE = False
+
+GUI_SOCK = None
+SERVO_SOCK = None
+JETSON_SOCK = None
+
+GUI_TIMEOUT = 0.01
+SERVO_TIMEOUT = 0.01
+JETSON_TIMEOUT = 0.01
+
+PORT_NUM = 2000
+
+OBJDETECT = True
+
+## Missile Config Constants ##
+
+SERVO_TOP = 0
+SERVO_BOTTOM = 1
+SERVO_LEFT = 2
+SERVO_RIGHT = 3
